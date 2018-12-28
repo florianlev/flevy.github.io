@@ -8,8 +8,10 @@ import './style.scss';
 
 const PortfolioPage = (props, context) => {
   const {
+
     theme: { colorPrimary, colorAlternate, textAlternate, bgPrimary }
   } = context;
+
 
   return (
     <div className="portfolio-page" style={{ backgroundColor: bgPrimary }}>

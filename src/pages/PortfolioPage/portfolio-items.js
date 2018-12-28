@@ -1,65 +1,88 @@
 import React from 'react';
+//import HideText from '@components/HideText';
 
-export default [{
+export default [
+  {
   name: 'Fermeture des bars',
+  
   render: (
     <div className='portfolio-item'>
       <div className='portfolio-item__title'>
       Fermeture des bars
       </div>
       <div className='portfolio-item__desc'>
-        Petit jeu multijoueur en JavaScript 
+        Jeu sur Android solo multijoueur. Projet réaliser dans le cadre du cours Programmation Mobile au CEGEP De Matane 
       </div>
       <div className='portfolio-item__icon'>
+      <div>Technologies : </div>
         <i className="fab fa-node"></i>
         <i className="fab fa-js"></i>
         <i className="fab fa-html5"></i>
         <i className="fab fa-css3"></i>
-
       </div>
-      <div className='portfolio-item__links'>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/flexdinesh"><i className="fab fa-github"></i></a>
 
+      <div className='portfolio-item__desc'>
+      Librairies :  CreateJS, HammerJS, NodeJS, Socket.io, HowlerJS, PhoneGap
+      </div>
+
+      <div className='portfolio-item__links'>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/florianlev/programmation-mobile-projet-phonegap-fermeture-des-bars-2019"><i className="fab fa-github"></i></a>
+        <a target="_blank" rel="noopener noreferrer"><i className="fab fa-google-play"  style={{color: 'red'}}></i></a>
       </div>
     </div>
+    
   )
 }, {
-  name: 'dev-landing-page',
+  name: 'paper-io',
   render: (
     <div className='portfolio-item'>
       <div className='portfolio-item__title'>
-        Dev Landing Page
+        Reproduction du jeu Paper.IO
       </div>
       <div className='portfolio-item__desc'>
-        Minimal landing page for developers
+        Reproduction du jeu Paper.IO. Jeu multijoueur pouvant se jouer jusqu'à 10 joueurs. Projet réaliser dans le cadre du cours Jeu multijoueur au CEGEP De Matane.        
       </div>
       <div className='portfolio-item__icon'>
+      <div>Technologies : </div>
+        <i className="fab fa-node"></i>
+        <i className="fab fa-js"></i>
         <i className="fab fa-html5"></i>
         <i className="fab fa-css3"></i>
       </div>
+      <div className='portfolio-item__desc' >
+      Librairies : SVG.js, Socket.io, TweenJS(CreateJS)
+      </div>
       <div className='portfolio-item__links'>
-        <a target="_blank" rel="noopener noreferrer" href="https://dev.to/flexdinesh/create-your-developer-landing-page-with-github-pages---42jk">Blog</a>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/flexdinesh/dev-landing-page">More</a>
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/florianlev/programmation-mobile-projet-phonegap-fermeture-des-bars-2019"><i className="fab fa-github"></i></a>
+      <a target="_blank" rel="noopener noreferrer" href="http://paper-io.com/">Reference</a>
       </div>
     </div>
   )
 }, {
-  name: 'react-redux-boilerplate',
+  //style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '10vh'}}
+
+  name: 'Application Android Decouverte Faune',
   render: (
     <div className='portfolio-item'>
       <div className='portfolio-item__title'>
-        React-Redux Boilerplate
+        Marina Connect
       </div>
       <div className='portfolio-item__desc'>
-        Boilerplate code setup with community best practices
+        Application communautaire permettant de découvrir les animaux marins de la région de Matane.
+        Plus de détails dans la page GitHub
+        Projet réaliser dans le cadre du cours Projet base de données au CEGEP De Matane.
       </div>
       <div className='portfolio-item__icon'>
-        <i className="fab fa-react"></i>
-        <i className="fab fa-js"></i>
+      <div>Technologies : </div>
+        <i className="fab fa-android"></i>
+        <i className="fab fa-php"></i>
+
+      </div>
+      <div className='portfolio-item__desc'>
+      JAVA,, WikiMedia, MySQL, PostgreSQL, Android Studio
       </div>
       <div className='portfolio-item__links'>
-        <a target="_blank" rel="noopener noreferrer" href="https://dev.to/flexdinesh/react-redux-boilerplate-with-best-practices--2pp5">Blog</a>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/flexdinesh/react-redux-boilerplate">More</a>
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/florianlev/projet-bd-2018-marina-totale-decouverteFaune"><i className="fab fa-github"></i></a>
       </div>
     </div>
   )
