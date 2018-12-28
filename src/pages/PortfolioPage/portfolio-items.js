@@ -1,22 +1,25 @@
 import React from 'react';
 
 export default [{
-  name: 'typy',
+  name: 'Fermeture des bars',
   render: (
     <div className='portfolio-item'>
       <div className='portfolio-item__title'>
-        Typy
+      Fermeture des bars
       </div>
       <div className='portfolio-item__desc'>
-        JavaScript type checking library with a sweeter syntax
+        Petit jeu multijoueur en JavaScript 
       </div>
       <div className='portfolio-item__icon'>
+        <i className="fab fa-node"></i>
         <i className="fab fa-js"></i>
-        <i className="fab fa-npm"></i>
+        <i className="fab fa-html5"></i>
+        <i className="fab fa-css3"></i>
+
       </div>
       <div className='portfolio-item__links'>
-        <a target="_blank" rel="noopener noreferrer" href="https://www.npmjs.com/package/typy">NPM</a>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/flexdinesh/typy">More</a>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/flexdinesh"><i className="fab fa-github"></i></a>
+
       </div>
     </div>
   )

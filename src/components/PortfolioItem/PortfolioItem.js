@@ -19,6 +19,8 @@ const PortfolioItem = (props, context) => {
           kickass everyday! I do badass things and kickass everyday!
         </div>
         <div className="portfolio-item__icon">
+          <i className="fab fa-github" />
+        
           <i className="fab fa-js" />
           <i className="fab fa-react" />
           <i className="fab fa-html5" />
