@@ -4,14 +4,15 @@ import React from 'react';
 export default [
   {
   name: 'Fermeture des bars',
-  
+
+
   render: (
     <div className='portfolio-item'>
       <div className='portfolio-item__title'>
-      Fermeture des bars
+      "Fermeture des bars"
       </div>
-      <div className='portfolio-item__desc'>
-        Jeu sur Android solo multijoueur. Projet réaliser dans le cadre du cours Programmation Mobile au CEGEP De Matane 
+      <div className='portfolio-item__desc' style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '15vh'}}>
+        Jeu sur Android solo multijoueur. Projet réalisé dans le cadre du cours Programmation Mobile au CEGEP De Matane. Plus de détails dans la page GitHub ci dessous.
       </div>
       <div className='portfolio-item__icon'>
       <div>Technologies : </div>
@@ -39,8 +40,9 @@ export default [
       <div className='portfolio-item__title'>
         Reproduction du jeu Paper.IO
       </div>
-      <div className='portfolio-item__desc'>
-        Reproduction du jeu Paper.IO. Jeu multijoueur pouvant se jouer jusqu'à 10 joueurs. Projet réaliser dans le cadre du cours Jeu multijoueur au CEGEP De Matane.        
+      <div className='portfolio-item__desc' style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '20vh'}}>
+        Reproduction du jeu Paper.IO. Jeu multijoueur pouvant se jouer jusqu'à 10 joueurs. Projet réalisé dans le cadre du cours Jeu multijoueur au CEGEP De Matane.         Plus de détails dans la page GitHub ci dessous.
+       
       </div>
       <div className='portfolio-item__icon'>
       <div>Technologies : </div>
@@ -53,7 +55,7 @@ export default [
       Librairies : SVG.js, Socket.io, TweenJS(CreateJS)
       </div>
       <div className='portfolio-item__links'>
-      <a target="_blank" rel="noopener noreferrer" href="https://github.com/florianlev/programmation-mobile-projet-phonegap-fermeture-des-bars-2019"><i className="fab fa-github"></i></a>
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/florianlev/projet-multijoueur-nodejs-2018-florianlev"><i className="fab fa-github"></i></a>
       <a target="_blank" rel="noopener noreferrer" href="http://paper-io.com/">Reference</a>
       </div>
     </div>
@@ -65,12 +67,12 @@ export default [
   render: (
     <div className='portfolio-item'>
       <div className='portfolio-item__title'>
-        Marina Connect
+        "Marina Connect"
       </div>
       <div className='portfolio-item__desc'>
         Application communautaire permettant de découvrir les animaux marins de la région de Matane.
-        Plus de détails dans la page GitHub
-        Projet réaliser dans le cadre du cours Projet base de données au CEGEP De Matane.
+        Projet réalisé dans le cadre du cours Projet base de données au CEGEP De Matane.
+        Plus de détails dans la page GitHub ci dessous.
       </div>
       <div className='portfolio-item__icon'>
       <div>Technologies : </div>
@@ -79,7 +81,7 @@ export default [
 
       </div>
       <div className='portfolio-item__desc'>
-      JAVA,, WikiMedia, MySQL, PostgreSQL, Android Studio
+      JAVA, WikiMedia, MySQL, PostgreSQL, Android Studio
       </div>
       <div className='portfolio-item__links'>
       <a target="_blank" rel="noopener noreferrer" href="https://github.com/florianlev/projet-bd-2018-marina-totale-decouverteFaune"><i className="fab fa-github"></i></a>
@@ -87,60 +89,76 @@ export default [
     </div>
   )
 }, {
-  name: 'npm-module-boilerplate',
+  name: 'Find-it',
   render: (
     <div className='portfolio-item'>
       <div className='portfolio-item__title'>
-        NPM Module Boilerplate
+        "Find-IT"
       </div>
       <div className='portfolio-item__desc'>
-         Boilerplate plate code to create and publish an NPM package
+      Reprise du concept du jeu Géocatching existant sur Android et Iphone Application Android permettant de découvrir les lieux de sa région.
+      Réalisé dans le cadre du cours Programmation Mobile au CEGEP De Matane.
+      Plus de détails dans la page GitHub ci dessous.
+
       </div>
       <div className='portfolio-item__icon'>
-        <i className="fab fa-js"></i>
-        <i className="fab fa-npm"></i>
+      <div>Technologies : </div>
+
+        <i className="fab fa-android"></i>
+        <i className="fab fa-php"></i>
+      </div>
+      <div className='portfolio-item__desc'>
+      JAVA, MySQL, Android Studio, XML
       </div>
       <div className='portfolio-item__links'>
-        <a target="_blank" rel="noopener noreferrer" href="https://dev.to/flexdinesh/publish-your-own-npm-package---5b71">Blog</a>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/flexdinesh/npm-module-boilerplate">More</a>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/florianlev/programmation-mobile-2018-projet-java-find-it"><i className="fab fa-github"></i></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=AvuVy9JRl9Y&feature=youtu.be"><i className="fab fa-youtube"></i></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://www.geocaching.com/play">Reference</a>
+
       </div>
     </div>
   )
 }, {
-  name: 'axios-retry-interceptor',
+  name: 'Application traitant données de méteorites de la NASA',
   render: (
     <div className='portfolio-item'>
       <div className='portfolio-item__title'>
-        Axios Retry Interceptor
+      Application traitant données de méteorites de la NASA      
       </div>
-      <div className='portfolio-item__desc'>
-        Configurable Axios Interceptor to retry failed http calls.
+      <div className='portfolio-item__desc' style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '30vh'}}>
+      Application traitant les données de méteorites et de seisme provenant d'un fichier XML de la NASA
+      Réalisé dans le cadre du cours Structure de données au CEGEP de Matane.
+      Plus de détails dans la page GitHub ci dessous.
       </div>
       <div className='portfolio-item__icon'>
-        <i className="fab fa-js"></i>
+      <div>Technologies : </div>
+      </div>
+      <div className='portfolio-item__desc'>
+      JAVA, Spring, XML, JavaFX
       </div>
       <div className='portfolio-item__links'>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/flexdinesh/axios-retry-interceptor">More</a>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/florianlev/projet-ioc-2018-florianlev"><i className="fab fa-github"></i></a>
       </div>
     </div>
   )
 }, {
-  name: 'browser-or-node',
+  name: 'Jeu GameJam',
   render: (
     <div className='portfolio-item'>
       <div className='portfolio-item__title'>
-        Browser or Node
+        Jeu GameJam Rimouski (Québec)
       </div>
       <div className='portfolio-item__desc'>
-        Javascript library to check the runtime JS env
+      Réalisation d'un jeu 3D lors d'une GameJam a Rimouski (Québéc) 
       </div>
       <div className='portfolio-item__icon'>
-        <i className="fab fa-js"></i>
-        <i className="fab fa-npm"></i>
+      <div>Technologies : </div>
+      </div>
+      <div className='portfolio-item__desc'>
+      Unity 3D, C#
       </div>
       <div className='portfolio-item__links'>
-        <a target="_blank" rel="noopener noreferrer" href="https://www.npmjs.com/package/browser-or-node">NPM</a>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/flexdinesh/browser-or-node">More</a>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/florianlev/2000dollars"><i className="fab fa-github"></i></a>
       </div>
     </div>
   )

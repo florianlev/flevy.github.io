@@ -4,6 +4,7 @@ import PortfolioItem from '@components/PortfolioItem';
 import ScrollToPrevious from '@components/ScrollToPrevious';
 import portfolioItems from './portfolio-items';
 
+
 import './style.scss';
 
 const PortfolioPage = (props, context) => {
@@ -34,7 +35,8 @@ const PortfolioPage = (props, context) => {
           </style>
           {/* <PortfolioItem /> */}
           {portfolioItems.map((item, i) => (
-            <PortfolioItem render={item.render} key={i} />
+          <PortfolioItem render={item.render} key={i} >
+            </PortfolioItem>
           ))}
         </div>
       </div>
