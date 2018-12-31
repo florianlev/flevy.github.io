@@ -25,28 +25,43 @@ const AboutPage = (props, context) => {
         <div className="about-wrapper">
           <div className="about-content" style={{ color: textPrimary }}>
             <p>
-              I like <span className="highlight">JavaScript</span> and
-              everything web.
-            </p>
+
+              Je suis un développeur logiciel et web "back-end"
+              J'ai une très bonne faculté d'adaptation, je souhaiterai joindre mon dynamisme à une entreprise qui
+              me permettrait d'évoluer. 
+              J’aime me tenir informé concernant les dernières technologies. 
+              J’aime le challenge d’avoir à régler ou comprendre un problème qui demande beaucoup de temps. 
+              Je suis multitâche, très patient et méticuleux dans mon travail.
+              </p> 
+              <p>
+              Ayant eu une expérience en tant qu' Administrateur réseau et ma récente formation en programmation au CEGEP De Matane
+              je me sens largement plus polyvalent et multitâches. 
+              </p>  
+              <p>
+              J'ai un réel intérêt pour la programmation back-end dont mes compétences se résument : 
+              <ul>
+                <li> - Programmation Web : </li><ul>
+                 <li> - PHP</li> 
+                 <li> - HTML 5 / CSS</li>
+                 <li> - JAVASCRIPT </li>
+                 <li> - NODE.JS </li>
+                 </ul>
+                 <li> Programmation logiciel : </li>
+                 
+              </ul>
+
+    
+     : PHP - HTML 5 / CSS , JAVASCRIPT - NODE.JS
+              logiciel, de jeux vidéo, l'univers Linux, concevoir des bases de données SQL, des applications back end :
+              PHP - HTML 5 / CSS - JAVA (Spring, hibernate)- C# - JAVASCRIPT - NODE.JS  - Unity - Docker.
+              Je suis également familier avec les design pattern et les architectures MVC, MVVM.
+            </p>  
             <p>
-              When my dev senses kick-in I build presumably{' '}
-              <span className="highlight"> awesome stuff</span>. I stay close to
-              the community and try to keep tabs with the pace at which the web
-              is evolving. I also like to{' '}
-              <span className="highlight">blog</span> what I learn.
+            Certains de mes projets sont mit en ligne sur mon serveur VPS sous Docker.
             </p>
-            <p>
-              I built this site <span className="highlight">from scratch</span>.
-              By scratch, I mean <i>absolutely from scratch</i>{' '}
-              <span className="highlight">
-                without any UI library/framework
-              </span>{' '}
-              (except React though) and had so much fun along the way.
-            </p>
-            <p>
-              React-Redux, Node.js, Ruby on Rails, Java, Spring Boot, Docker and
-              AWS are the main tricks up my sleeve. I am also obsessed with making the web look pretty with SASS/CSS.
-            </p>
+            <p>Vous pouvez me retrouver sur <a target="_blank" rel="noopener noreferrer" href="https://github.com/florianlev/">Github</a>,
+             <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/florian-levy-99b851bb/"> Linkedin </a> 
+             ou me contacter par Mail : <a target="_blank" rel="noopener noreferrer" href="mailto:flolevy33@gmail.com">flolevy33@gmail.com</a></p>
             <p className="text-emoji" style={{ color: colorPrimary }}>
               \ (•◡•) /
             </p>
