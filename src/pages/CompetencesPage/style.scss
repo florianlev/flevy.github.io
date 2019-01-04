@@ -1,0 +1,54 @@
+@import 'breakpoints';
+
+.competences {
+  padding-top: 2rem;
+  min-height: 100vh;
+  display: flex;
+	flex: 0 1 auto;
+	flex-direction: column;
+  justify-content: center;
+  
+  @include breakpoint-small-down {
+    padding-top: 3rem;
+  }
+
+  h1 {
+    padding: 1rem 0;
+    font-size: 3rem;
+  }
+
+  .content-grid {
+    flex: auto;
+  }
+
+  .portfolio-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    @include breakpoint-small-down {
+      align-items: center;
+    }
+  }
+
+  
+  ol {counter-reset: repas;} /* on initialise et nomme un compteur */
+  li {
+    list-style-type: none;
+    counter-increment: repas; /* on incrémente le compteur à chaque nouveau li */
+    margin-bottom: 10px;
+  }
+  li:before {
+    content: counter(repas); /* on affiche le compteur */
+    padding: 0 20px 6px;
+    margin-right: 8px;
+    vertical-align: top;
+    background: #678;
+    -moz-border-radius: 60px;
+    border-radius: 60px;
+    font-weight: bold;
+    font-size: 0.8em;
+    color: white;		
+  }
+
+}

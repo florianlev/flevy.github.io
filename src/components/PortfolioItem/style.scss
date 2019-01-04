@@ -46,6 +46,19 @@ $border-radius: 2px;
     }
   }
 
+  &__descListe {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+
+    @include breakpoint-small-down {
+      font-size: 0.875rem;
+    }
+  }
+
   &__icon {
     padding: 1rem 0;
     font-size: 1.5rem;
