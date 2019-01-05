@@ -162,4 +162,27 @@ export default [
       </div>
     </div>
   )
+}, {
+  name: 'Sudoku',
+  render: (
+    <div className='portfolio-item'>
+      <div className='portfolio-item__title'>
+        SUDOKU
+      </div>
+      <div className='portfolio-item__desc'>
+      Premier projet d'un SUDOKU en C#
+      </div>
+      <div className='portfolio-item__icon'>
+      <div>Technologies : </div>
+      </div>
+      <div className='portfolio-item__desc'>
+      C#
+      </div>
+      <div className='portfolio-item__links'>
+        <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/u3mr1_ZFM7k"><i className="fab fa-youtube"></i></a>
+
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/florianlev/SUDOKU_C-"><i className="fab fa-github"></i></a>
+      </div>
+    </div>
+  )
 }]

@@ -26,26 +26,26 @@ const AboutPage = (props, context) => {
           <div className="about-content" style={{ color: textPrimary }}>
             <p>
               Actuellement finissant en DEC Informatique au CEGEP de Matane, j'ai acquis des compétences dans les domaines du développement de logiciels,
-              le web (back-end) , le jeu vidéo (JavaScript, Unity, Unreal), conception de base de données.
+              web (back-end) , jeu vidéo (JavaScript, Unity, Unreal), conception de base de données.
 
-              J'ai également un diplome français en Administration de réseaux et systèmes: BTS Service Informatique aux Organisations (Diplome d'état équivalent au DEC)
+              J'ai également un diplôme français en administration de réseaux et systèmes: BTS Service Informatique aux Organisations (Diplôme d'état équivalant au DEC)
               et 2 ans d'expérience dans le domaine.
               </p>
 
             <p>
-              Mon domaine d'expertise concerne principalement le développement de logiciel, web back-end (intégration ou conception d'API) et jeux vidéo. 
+              Mes domaines d'expertise concernent principalement le développement de logiciels, web back-end (intégration ou conception d'API) et jeux vidéo. 
               </p>
             
-              J'ai une très bonne faculté d'adaptation, je souhaiterai joindre mon dynamisme à une entreprise qui
+              J'ai une très bonne faculté d'adaptation, je souhaiterais joindre mon dynamisme à une entreprise qui
               me permettrait d'évoluer.
               <p>
-              J’aime me tenir informé concernant les dernières technologies. 
+              J’aime me tenir informé sûr les dernières technologies. 
               J’aime le challenge d’avoir à résoudre ou comprendre un problème qui demande beaucoup de temps. 
               Je suis multitâche et patient.
               </p> 
 
             <p>
-            Certains de mes projets sont mit en ligne sur mon serveur VPS sous Docker.
+            Certains de mes projets sont mis en ligne sur mon serveur VPS sous Docker.
             </p>
 
             <p>

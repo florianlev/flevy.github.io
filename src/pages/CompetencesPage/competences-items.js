@@ -13,7 +13,7 @@ export default [
       </div>
       
       <div className='portfolio-item__desc'style={{justifyContent:'center', height: '55vh'}} >
-        JAVA (Spring, Hibernate, JAVAFX), C#, PHP (POO), SQL (Triggers, Stored Procedure), Node.JS (Socket.io, express, NPM),
+        JAVA (Spring, Hibernate, JAVAFX), C#, PHP (POO), Node.JS (Socket.io, express, NPM),
         JavaScript (React.JS, AJAX), DOM, HTML5, CSS3, Services Web (PHP, NodeJS), XML, JSON, C++, Android Studio (JAVA, API GoogleMap, Gestures, GPS ...),
         PhoneGAP Cordova, Wordpress, powershell.
         
@@ -33,7 +33,7 @@ export default [
       </div>
       
       <div className='portfolio-item__desc' style={{ justifyContent:'center', height: '55vh'}}>
-        PDO, MySQL, PostgreSQL, SQL Server, MongoDB
+      SQL (Triggers, Stored Procedure), PDO, MySQL, PostgreSQL, SQL Server, MongoDB
       </div>
     </div>
     
