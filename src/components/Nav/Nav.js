@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { toElement as scrollToElement } from '@utils/scroll';
+import Pdf from './Documents/CVFlorian.pdf';
 
 import './style.scss';
 
@@ -87,6 +88,9 @@ class Nav extends Component {
           >
             Compétences
           </div>
+
+       
+            
         </div>
       </nav>
     );
