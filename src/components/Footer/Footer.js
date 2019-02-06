@@ -8,7 +8,7 @@ const Footer = (props, context) => {
   return (
     <footer>
       <div className="content-grid">
-        <div style={{ color: textPrimary }}>Forked from <a href="https://github.com/flexdinesh" target="_blank" rel="noopener noreferrer" style={{ color: colorPrimary }}>Dinesh</a> modifié par <a href="https://github.com/florianlev" target="_blank" rel="noopener noreferrer" style={{ color: colorPrimary }}>Florian LEVY</a>  <span role="img" aria-label="heart">❤️</span></div>
+        <div style={{ color: textPrimary }}>Forked from <a href="https://github.com/flexdinesh" target="_blank" rel="noopener noreferrer" style={{ color: colorPrimary }}>Dinesh</a> modifié par <a href="https://github.com/florianlev" target="_blank" rel="noopener noreferrer" style={{ color: colorPrimary }}>Florian LEVY</a> </div>
       </div>
     </footer>
   );

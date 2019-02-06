@@ -3,9 +3,29 @@ import React from 'react';
 
 export default [
   {
-  name: 'Fermeture des bars',
+  name: 'Keep the Wolf from the Door',
 
+  render: (
+    <div className='portfolio-item'>
+      <div className='portfolio-item__title'>
+      "Keep the Wolf from the Door"
+      </div>
+      <div className='portfolio-item__desc' style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '15vh'}}>
+      Ce projet à été conçu sur une période de 48h lors d'une compétition de création de jeu vidéo intercollégial à Valleyfield avec une équipe multidisciplinaire du cégep de Matane.
+      </div>
 
+      <div className='portfolio-item__desc'>
+        Unity 3D
+      </div>
+
+      <div className='portfolio-item__links'>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/florianlev/Keep-the-Wolf-from-the-Door"><i className="fab fa-github"></i></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/ugDJAtHcDXY"><i className="fab fa-youtube"></i></a>
+      </div>
+    </div>
+    
+  )
+}, {
   render: (
     <div className='portfolio-item'>
       <div className='portfolio-item__title'>
