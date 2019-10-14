@@ -10,7 +10,7 @@ export default [
       <div className='portfolio-item__title'>
       "Keep the Wolf from the Door"
       </div>
-      <div className='portfolio-item__desc' style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '15vh'}}>
+      <div className='portfolio-item__desc' style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '40vh'}}>
       Ce projet à été conçu sur une période de 48h lors d'une compétition de création de jeu vidéo intercollégial à Valleyfield avec une équipe multidisciplinaire du cégep de Matane.
       </div>
 
@@ -23,7 +23,7 @@ export default [
         <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/ugDJAtHcDXY"><i className="fab fa-youtube"></i></a>
       </div>
     </div>
-    
+
   )
 }, {
   render: (
@@ -51,7 +51,7 @@ export default [
         <a target="_blank" rel="noopener noreferrer"><i className="fab fa-google-play"  style={{color: 'red'}}></i></a>
       </div>
     </div>
-    
+
   )
 }, {
   name: 'paper-io',
@@ -62,7 +62,7 @@ export default [
       </div>
       <div className='portfolio-item__desc' style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '20vh'}}>
         Reproduction du jeu Paper.IO. Jeu multijoueur pouvant se jouer jusqu'à 10 joueurs. Projet réalisé dans le cadre du cours Jeu multijoueur au CEGEP De Matane.         Plus de détails dans la page GitHub ci dessous.
-       
+
       </div>
       <div className='portfolio-item__icon'>
       <div>Technologies : </div>
@@ -143,7 +143,7 @@ export default [
   render: (
     <div className='portfolio-item'>
       <div className='portfolio-item__title'>
-      Application traitant données de méteorites de la NASA      
+      Application traitant données de méteorites de la NASA
       </div>
       <div className='portfolio-item__desc' style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '30vh'}}>
       Application traitant les données de méteorites et de seisme provenant d'un fichier XML de la NASA
@@ -169,7 +169,7 @@ export default [
         Jeu GameJam Rimouski (Québec)
       </div>
       <div className='portfolio-item__desc'>
-      Réalisation d'un jeu 3D lors d'une GameJam a Rimouski (Québéc) 
+      Réalisation d'un jeu 3D lors d'une GameJam a Rimouski (Québéc)
       </div>
       <div className='portfolio-item__icon'>
       <div>Technologies : </div>
