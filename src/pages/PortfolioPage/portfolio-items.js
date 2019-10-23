@@ -1,41 +1,127 @@
 import React from 'react';
+import Popup from "reactjs-popup";
 //import HideText from '@components/HideText';
 
 export default [
+    {
+  name: 'Tom Sawyer',
+
+  render: (
+    <div className='portfolio-item'>
+
+        <Popup  trigger={<div >
+            <div className='portfolio-item__title'>
+                Tom Sawyer
+            </div>
+        <div className='portfolio-item__desc' style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '25vh'}}>
+        Jeu mobile Android / IOS sur Tom Sawyer réalisé en équipe dans le cadre d'un emploi chez Cube Noir (Groupe PVP).
+        </div>
+        <div className='portfolio-item__icon'>
+
+        <div>Technologies : </div>
+        </div>
+
+      <div className='portfolio-item__desc'>
+      Unity 3D, C#, PHP, Symfony, MYSQL
+      </div>
+
+
+        <div className='portfolio-item__desc'>
+        Jeu pas encore disponible sur les stores
+     </div>
+
+        <div className='portfolio-item__desc'>
+        Cliquez ici pour plus de details
+        </div>
+
+       </div>} modal  position = "center">
+
+<div className='title'>
+
+    Tom Sawyer
+</div>
+<div className='desc'>
+    <div className='icon'>Contribution : </div>
+    <ul style={{marginLeft: "-10px", paddingLeft: "10px"}}>
+        <li>Développement d'un jeu mobile IOS / Android</li>
+        <li>Programmation du gameplay</li>
+        <li>Programmation outils de gamedesign / missions</li>
+        <li>Intégration IAP dans le jeu (Monetisation IOS / Android)</li>
+        <li>Gestion de la publication sur les stores IOS/ Android</li>
+        <li>Programmation système UI / Popup</li>
+        <li>Programmation d''API en PHP Symfony</li>
+        <li>Intégrations d'assets / Animations</li>
+        <li>Intégration de la Localisation pour plusieurs langues</li>
+        <li>Programmation de personnalisation de personnages</li>
+        <li>Programmation de système de sauvegarde du jeu (JSON)</li>
+        <li>Développement agile (SCRUM)</li>
+        </ul>
+</div>
+
+
+          </Popup>
+
+    </div>
+
+  )
+},
   {
   name: 'Keep the Wolf from the Door',
 
   render: (
     <div className='portfolio-item'>
-      <div className='portfolio-item__title'>
-      "Keep the Wolf from the Door"
-      </div>
-      <div className='portfolio-item__desc' style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '40vh'}}>
-      Ce projet à été conçu sur une période de 48h lors d'une compétition de création de jeu vidéo intercollégial à Valleyfield avec une équipe multidisciplinaire du cégep de Matane.
+
+        <Popup  trigger={<div >
+            <div className='portfolio-item__title'>
+                "Keep the Wolf from the Door"
+            </div>
+        <div className='portfolio-item__desc' style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '40vh'}}>
+            Ce projet à été conçu sur une période de 48h lors d'une compétition de création de jeu vidéo intercollégial à Valleyfield avec une équipe multidisciplinaire du cégep de Matane.
+        </div>
+
+        <div className='portfolio-item__links'>
+         <a target="_blank" rel="noopener noreferrer" href="https://github.com/florianlev/Keep-the-Wolf-from-the-Door"><i className="fab fa-github" ></i></a>
+        <a target="_blank" rel="noopener noreferrer"  href="https://youtu.be/ugDJAtHcDXY"><i className="fab fa-youtube"></i></a>
       </div>
 
-      <div className='portfolio-item__desc'>
-        Unity 3D
+        <div className='portfolio-item__desc'>
+        Cliquez ici pour plus de details
+        </div>
+       </div>} modal  position = "center">
+
+<div className='title'>
+
+    "Keep the Wolf from the Door"
+</div>
+<div className='desc'>
+    Ce projet à été conçu sur une période de 48h lors d'une compétition de création de jeu vidéo intercollégial à Valleyfield avec une équipe multidisciplinaire du cégep de Matane.
+    Jeu réalisé avec Unity3D / C#
+    Code disponnible sur le GitHub en dessous.
+</div>
+      <div className='links'>
+         <a target="_blank" rel="noopener noreferrer" style={{color: 'red'}} href="https://github.com/florianlev/Keep-the-Wolf-from-the-Door"><i className="fab fa-github" ></i></a>
+        <a target="_blank" rel="noopener noreferrer" style={{color: 'red'}} href="https://youtu.be/ugDJAtHcDXY"><i className="fab fa-youtube"></i></a>
       </div>
 
-      <div className='portfolio-item__links'>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/florianlev/Keep-the-Wolf-from-the-Door"><i className="fab fa-github"></i></a>
-        <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/ugDJAtHcDXY"><i className="fab fa-youtube"></i></a>
-      </div>
+
+          </Popup>
+
     </div>
 
   )
 }, {
   render: (
     <div className='portfolio-item'>
-      <div className='portfolio-item__title'>
-      "Fermeture des bars"
-      </div>
-      <div className='portfolio-item__desc' style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '15vh'}}>
-        Jeu sur Android solo multijoueur. Projet réalisé dans le cadre du cours Programmation Mobile au CEGEP De Matane. Plus de détails dans la page GitHub ci dessous.
-      </div>
-      <div className='portfolio-item__icon'>
-      <div>Technologies : </div>
+        <Popup  trigger={<div >
+            <div className='portfolio-item__title'>
+                "Fermeture des bars"
+            </div>
+            <div className='portfolio-item__desc' style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '25vh'}}>
+                Jeu sur Android solo multijoueur. Projet réalisé dans le cadre du cours Programmation Mobile au CEGEP De Matane. Plus de détails dans la page GitHub ci dessous.
+            </div>
+
+        <div className='portfolio-item__icon'>
+        <div>Technologies : </div>
         <i className="fab fa-node"></i>
         <i className="fab fa-js"></i>
         <i className="fab fa-html5"></i>
@@ -45,11 +131,66 @@ export default [
       <div className='portfolio-item__desc'>
       Librairies :  CreateJS, HammerJS, NodeJS, Socket.io, HowlerJS, PhoneGap
       </div>
-
-      <div className='portfolio-item__links'>
+        <div className='portfolio-item__links'>
         <a target="_blank" rel="noopener noreferrer" href="https://github.com/florianlev/programmation-mobile-projet-phonegap-fermeture-des-bars-2019"><i className="fab fa-github"></i></a>
-        <a target="_blank" rel="noopener noreferrer"><i className="fab fa-google-play"  style={{color: 'red'}}></i></a>
+        </div>
+      <div className='portfolio-item__desc'>
+        Cliquez ici pour plus de details
+        </div>
+
+
+       </div>} modal  position = "center">
+
+
+    <div className='title'>
+
+    "Fermeture des bars"
+    </div>
+
+    <div className="desc">
+
+    <div className='icon'>Description : </div>
+
+    C'est un jeu mutilijoueur pour mobile.
+    Le client à était coder en JavaScript à l'aide de plusieurs librairies
+    Create JS (dessin, spritesheet), HammerJS (gesture tactile), HowlerJS (sons,musique)
+    Le jeu fonctionne sur telephone avec Cordova PhoneGap.
+    Le serveur pour le mutilijoueur est réaliser en NodeJS avec la librairie SocketIO et les échanges de données
+    client/serveur sont faites en JSON.
+    Code disponnible sur le GitHub en dessous.
+
+    </div>
+
+
+    <div className="desc">
+
+    <div className='icon'>Contribution : </div>
+    <li>Intégration visuel</li>
+    <li>Conception du GamePlay</li>
+    <li>Jouabilitée multijoueur</li>
+    <li>Serveur multijoueur nodeJS / Socket IO</li>
+    <li> API pour appreciation des utilisateurs PHP avec BD MySQL</li>
+    <li>Systeme de room</li>
+    </div>
+
+
+            <div className='icon'>
+
+    <div>Technologies : </div>
+        <i className="fab fa-node"></i>
+        <i className="fab fa-js"></i>
+        <i className="fab fa-html5"></i>
+        <i className="fab fa-css3"></i></div>
+
+      <div className='desc'>
+      Librairies :  CreateJS, HammerJS, NodeJS, Socket.io, HowlerJS, PhoneGap
       </div>
+
+      <div className='links'>
+        <a target="_blank" rel="noopener noreferrer" style={{color: 'red'}} href="https://github.com/florianlev/programmation-mobile-projet-phonegap-fermeture-des-bars-2019"><i className="fab fa-github"></i></a>
+      </div>
+       </Popup>
+
     </div>
 
   )
@@ -60,7 +201,7 @@ export default [
       <div className='portfolio-item__title'>
         Reproduction du jeu Paper.IO
       </div>
-      <div className='portfolio-item__desc' style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '20vh'}}>
+      <div className='portfolio-item__desc' style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '25vh'}}>
         Reproduction du jeu Paper.IO. Jeu multijoueur pouvant se jouer jusqu'à 10 joueurs. Projet réalisé dans le cadre du cours Jeu multijoueur au CEGEP De Matane.         Plus de détails dans la page GitHub ci dessous.
 
       </div>
@@ -145,7 +286,7 @@ export default [
       <div className='portfolio-item__title'>
       Application traitant données de méteorites de la NASA
       </div>
-      <div className='portfolio-item__desc' style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '30vh'}}>
+      <div className='portfolio-item__desc' style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '25vh'}}>
       Application traitant les données de méteorites et de seisme provenant d'un fichier XML de la NASA
       Réalisé dans le cadre du cours Structure de données au CEGEP de Matane.
       Plus de détails dans la page GitHub ci dessous.
@@ -168,7 +309,7 @@ export default [
       <div className='portfolio-item__title'>
         Jeu GameJam Rimouski (Québec)
       </div>
-      <div className='portfolio-item__desc'>
+      <div className='portfolio-item__desc' style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '25vh'}}>
       Réalisation d'un jeu 3D lors d'une GameJam a Rimouski (Québéc)
       </div>
       <div className='portfolio-item__icon'>
@@ -189,7 +330,7 @@ export default [
       <div className='portfolio-item__title'>
         SUDOKU
       </div>
-      <div className='portfolio-item__desc'>
+      <div className='portfolio-item__desc' style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '25vh'}}>
       Premier projet d'un SUDOKU en C#
       </div>
       <div className='portfolio-item__icon'>

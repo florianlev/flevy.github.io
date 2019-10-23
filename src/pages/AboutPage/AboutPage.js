@@ -25,34 +25,27 @@ const AboutPage = (props, context) => {
         <div className="about-wrapper">
           <div className="about-content" style={{ color: textPrimary }}>
             <p>
-              Actuellement finissant en DEC Informatique au CEGEP de Matane, j'ai acquis des compétences dans les domaines du développement de logiciels,
-              web (back-end) , jeu vidéo (JavaScript, Unity, Unreal), conception de base de données.
-
-              J'ai également un diplôme français en administration de réseaux et systèmes: BTS Service Informatique aux Organisations (Diplôme d'état équivalant au DEC)
-              et 2 ans d'expérience dans le domaine.
+              Mes domaines d'expertise concernent principalement le développement de jeux vidéos, de logiciels, web back-end (intégration ou conception d'API), application web (JavaScript), application mobile. Je possède également de l’expérience en tant qu'administrateur de systèmes.
               </p>
 
             <p>
-              Mes domaines d'expertise concernent principalement le développement de logiciels, web back-end (intégration ou conception d'API) et jeux vidéo. 
+              J'ai une très bonne faculté d'adaptation, je souhaiterais joindre mon dynamisme à une entreprise qui me permettrait d'évoluer.
+                J’aime me tenir informé sûr les dernières technologies. J’aime le challenge d’avoir à comprendre et résoudre un problème. Je suis multitâche et patient.
+
               </p>
-            
-              J'ai une très bonne faculté d'adaptation, je souhaiterais joindre mon dynamisme à une entreprise qui
-              me permettrait d'évoluer.
               <p>
-              J’aime me tenir informé sûr les dernières technologies. 
-              J’aime le challenge d’avoir à résoudre ou comprendre un problème qui demande beaucoup de temps. 
-              Je suis multitâche et patient.
-              </p> 
+                Langages principaux: JAVA, C#, Javascript, NodeJS, PHP (voir le volet compétences pour plus d'informations)
+              </p>
 
             <p>
             Certains de mes projets sont mis en ligne sur mon serveur VPS sous Docker.
             </p>
 
             <p>
-            Durant mon temps libre, je suis musicien : je fais de la batterie et de la basse. 
+            Durant mon temps libre, je suis musicien : je fais de la batterie et de la basse.
             </p>
             <p>Vous pouvez me retrouver sur <a target="_blank" rel="noopener noreferrer" href="https://github.com/florianlev/">Github</a>,
-             <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/florian-levy-99b851bb/"> Linkedin </a> 
+             <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/florian-levy-99b851bb/"> Linkedin </a>
              ou me contacter par Mail : <a target="_blank" rel="noopener noreferrer" href="mailto:flolevy33@gmail.com">flolevy33@gmail.com</a></p>
             <p className="text-emoji" style={{ color: colorPrimary }}>
               \ (•◡•) /

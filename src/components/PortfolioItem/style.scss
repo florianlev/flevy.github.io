@@ -80,11 +80,69 @@ $border-radius: 2px;
     a {
       padding-bottom: 0.25rem;
       border-bottom: 2px solid transparent;
-      
+
       &:hover {
         cursor: pointer;
         border-bottom: 2px solid inherit;
       }
+    }
+  }
+
+   .icon {
+       color:black;
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-align: center;
+
+    svg {
+      margin: 0 0.25rem;
+    }
+  }
+
+  .title {
+    color: black;
+    flex: 1;
+    padding: 1rem 1.5rem;
+    font-size: 1.125rem;
+    font-weight: 400;
+    text-align: center;
+
+    @include breakpoint-small-down {
+      font-size: 1.25rem;
+    }
+  }
+
+  .links {
+    padding: 0 0 0.75rem;
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.875rem;
+    font-weight: 400;
+
+    a {
+      padding-bottom: 0.25rem;
+      border-bottom: 2px solid transparent;
+
+      &:hover {
+        cursor: pointer;
+        border-bottom: 2px solid inherit;
+      }
+    }
+  }
+
+  .desc {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.25rem;
+
+    @include breakpoint-small-down {
+      font-size: 0.875rem;
     }
   }
 }
