@@ -14,7 +14,8 @@ export default [
                 Tom Sawyer
             </div>
         <div className='portfolio-item__desc' style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '25vh'}}>
-        Jeu mobile Android / IOS sur Tom Sawyer réalisé en équipe dans le cadre d'un emploi chez Cube Noir (Groupe PVP).
+        Jeu mobile Android / IOS sur Tom Sawyer réalisé avec une petite équipe dans le cadre d'un emploi chez Cube Noir (Groupe PVP).
+        Jeu promotionnant la nouvelle télé série sur Tom Sawyer produit par le Groupe PVP diffusé sur Radio-Canada.
         </div>
         <div className='portfolio-item__icon'>
 
