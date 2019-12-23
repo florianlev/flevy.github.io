@@ -58,6 +58,14 @@ export default [
         </ul>
 </div>
 
+<div className='portfolio-item__desc'>
+        Jeu disponible sur les stores
+     </div>
+     <div className='portfolio-item__links'>
+         <a target="_blank" rel="noopener noreferrer" style={{color: 'red'}} href="https://play.google.com/store/apps/details?id=com.pvp.TomSawyer"><i className="fab fa-google-play" ></i></a>
+        <a target="_blank" rel="noopener noreferrer"   style={{color: 'red'}} href="https://apps.apple.com/ca/app/la-patrouille-de-tom/id1473630660?l=fr&ls=1"><i className="fab fa-app-store-ios"></i></a>
+      </div>
+
 
           </Popup>
 
